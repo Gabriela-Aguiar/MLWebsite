@@ -41,7 +41,7 @@ export default function Home() {
           <h3>Mudança de Vida e Carreira</h3>
         </Card>
         <Card>
-          <img src ='/images/collaborative.png' alt="Organização"/>
+          <img src ='/images/teamwork.png' alt="Organização"/>
           <h3>Cultura e Clima Organizacionais</h3>
         </Card>
         <Card>
@@ -58,7 +58,7 @@ export default function Home() {
         </Card>
         <Card>
           <Paises>
-            <img src ='/images/mexico.png' alt="México"/>
+            <img src ='/images/mexico.jpeg' alt="México"/>
             <img src ='/images/brazil.png' alt="Brasil"/>
             <h3>Relações Comerciais, 
             Profissionais e 
@@ -74,12 +74,10 @@ export default function Home() {
         <p>www.educacaocorporativaedevida.com.br</p>
       </Contato>
       <Social>
-        <Router>
-          <a href="https://www.linkedin.com/in/mauricio-lambiasi/" alt="linkedin" target="_blank"><img src='/images/linkedin.png'/></a>
-          <a href="https://www.facebook.com/mauricio.lambiasi" alt="facebook" target="_blank"><img src='/images/facebook.png'/></a>
-          <a href="https://twitter.com/LambiasiM" alt="twitter" target="_blank"><img src='/images/twitter.png'/></a>
-          <a href="https://www.instagram.com/mauriciolambiasi/" alt="instagram" target="_blank"><img src='/images/instagram.png'/></a>
-        </Router>
+        <a href="https://www.linkedin.com/in/mauricio-lambiasi/" target="_blank"><img src='/images/linkedin.png' alt="linkedin"/></a>
+        <a href="https://www.facebook.com/mauricio.lambiasi" target="_blank"><img src='/images/facebook.png' alt="facebook"/></a>
+        <a href="https://twitter.com/LambiasiM" target="_blank"><img src='/images/twitter.png' alt="twitter"/></a>
+        <a href="https://www.instagram.com/mauriciolambiasi/"><img src='/images/instagram.png' alt="instagram"/></a>
       </Social>
     </Footer>
   </div>

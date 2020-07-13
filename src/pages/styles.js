@@ -6,21 +6,24 @@ export const Header = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 
     h1 {
         font-size: 60px;
         font-weight: normal;
         color: #5DA6AD;
+        margin-bottom: 50px;
     }
 
     h2 {
         font-size: 40px;
         font-weight: normal;
-        margin-top: 70px;
+        margin: 70px 0;
     }
 
     p {
         font-size: 22px;
+        margin: 20px 0;
     }
 
     hr {
@@ -36,7 +39,7 @@ export const Navbar = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0;
+    margin: 100px 0;
 
     a {
     text-decoration: none;
@@ -46,7 +49,8 @@ export const Navbar = styled.div `
 
     a:hover {
         transform: scale(1.1);
-        border-bottom: 1px solid #5DA6AD;
+        /* border-bottom: 1px solid #5DA6AD; */
+        box-shadow: 0 4px 2px -2px #5DA6AD;
     }
 
     hr {
@@ -57,7 +61,7 @@ export const Principal = styled.div `
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-top: 150px;
 
     img {
         width:350px;
@@ -67,6 +71,7 @@ export const Principal = styled.div `
     p {
         width: 35vw;
         font-size: 26px;
+        line-height: 1.6;
     }
 `
 export const Serviços = styled.div `
@@ -75,6 +80,7 @@ export const Serviços = styled.div `
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
+    margin-bottom: 50px;
 
     h1 {
         font-size: 40px;
@@ -117,6 +123,10 @@ export const Card= styled.div `
     width: 20%;
     text-align: center;
 
+    h3 {
+        margin-top: 25px;
+    }
+
     &:hover {
         box-shadow: 0 0 1em #5DA6AD;
         transform: scale(1.1)
@@ -124,7 +134,7 @@ export const Card= styled.div `
 `
 
 export const Footer= styled.div `
-    background-color:#EFF8F8;
+    background-color:#CAE0DA;
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -132,7 +142,11 @@ export const Footer= styled.div `
 export const Contato= styled.div `
     display: flex;
     flex-direction: column;
+    margin: 30px;
 
+    h3 {
+        font-size: 24px;
+    }
     
     p {
         margin: 10px 0;
