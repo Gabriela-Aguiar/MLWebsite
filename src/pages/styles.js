@@ -6,7 +6,6 @@ export const Header = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Condensed', sans-serif;
 
     h1 {
         font-size: 60px;
@@ -37,13 +36,12 @@ export const Navbar = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Roboto Condensed', sans-serif;
     margin: 50px 0;
 
     a {
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
     }
 
     a:hover {
@@ -59,7 +57,6 @@ export const Principal = styled.div `
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto Condensed', sans-serif;
     margin-top: 120px;
 
     img {
@@ -82,7 +79,6 @@ export const Serviços = styled.div `
     h1 {
         font-size: 40px;
         font-weight: normal;
-        font-family: 'Roboto Condensed', sans-serif;
     }
 
     hr {
@@ -100,15 +96,57 @@ export const Fileira= styled.div `
     margin: 100px 0;
 
     img {
-        width: 50px;
+        width: 80px;
     }
 `
 export const Paises= styled.div `
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 50px;
+     } 
+`
+
+export const Card= styled.div `
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0 0 1em #5DA6AD;
+        transform: scale(1.1)
+    }
+`
+
+export const Footer= styled.div `
+    background-color:#EFF8F8;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+`
+export const Contato= styled.div `
+    display: flex;
+    flex-direction: column;
+
+    
+    p {
+        margin: 10px 0;
+    }
+`
+
+export const Social= styled.div `
+    display: flex;
+    margin: 90px 50px 0 0;
 
     img {
         width: 30px;
+        height: 30px;
+        margin: 0 15px;
     }
 `
 
