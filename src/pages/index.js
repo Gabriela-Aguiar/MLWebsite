@@ -1,5 +1,6 @@
 import React from "react"
-import { Link, BrowserRouter as Router } from "react-router-dom"
+import { Link } from "gatsby"
+import { BrowserRouter as Router } from "react-router-dom"
 import { Header, Navbar, Principal, Serviços, Fileira, Paises, Card, Footer, Contato, Social} from './styles'
 import './style.css'
 
