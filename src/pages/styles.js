@@ -6,13 +6,13 @@ export const Titulo = styled.div `
     align-items: center;
 
     h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: normal;
     margin: 70px 0;
     }
 
     p {
-        font-size: 22px;
+        font-size: 27px;
         margin: 20px 0;
     }
 `
@@ -32,7 +32,6 @@ export const Principal = styled.div `
         width: 35vw;
         font-size: 26px;
         line-height: 1.6;
-        font-style: oblique;
     }
 `
 export const Serviços = styled.div `
@@ -91,37 +90,6 @@ export const Card= styled.div `
     &:hover {
         box-shadow: 0 0 1em #5DA6AD;
         transform: scale(1.1)
-    }
-`
-
-export const Footer= styled.div `
-    background-color:#CAE0DA;
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-`
-export const Contato= styled.div `
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-
-    h3 {
-        font-size: 24px;
-    }
-    
-    p {
-        margin: 10px 0;
-    }
-`
-
-export const Social= styled.div `
-    display: flex;
-    margin: 90px 50px 0 0;
-
-    img {
-        width: 30px;
-        height: 30px;
-        margin: 0 15px;
     }
 `
 

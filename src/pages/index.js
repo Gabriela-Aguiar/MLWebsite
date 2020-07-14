@@ -5,13 +5,11 @@ import {
   Fileira,
   Paises,
   Card,
-  Footer,
-  Contato,
-  Social,
   Titulo,
 } from "./styles"
 import "./style.css"
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 
 export default function Home() {
@@ -24,10 +22,10 @@ export default function Home() {
         <p>Assessoria Corporativa</p>
       </Titulo>
       <Principal>
-        <p>
+        <p><em>
           “Conhece-te a ti mesmo e conhecerás todo o universo e os deuses,
           porque se o que procuras não achares primeiro dentro de ti mesmo, não
-          acharás em lugar algum”
+          acharás em lugar algum”</em>
           <br />
           <br />
           Grécia Antiga
@@ -71,30 +69,7 @@ export default function Home() {
           </Card>
         </Fileira>
       </Serviços>
-      <Footer>
-        <Contato>
-          <h3>Contato</h3>
-          <p>MauricioLambiasieducacao@hotmail.com</p>
-          <p>www.educacaocorporativaedevida.com.br</p>
-        </Contato>
-        <Social>
-          <a
-            href="https://www.linkedin.com/in/mauricio-lambiasi/"
-            target="_blank"
-          >
-            <img src="/images/linkedin.png" alt="linkedin" />
-          </a>
-          <a href="https://www.facebook.com/mauricio.lambiasi" target="_blank">
-            <img src="/images/facebook.png" alt="facebook" />
-          </a>
-          <a href="https://twitter.com/LambiasiM" target="_blank">
-            <img src="/images/twitter.png" alt="twitter" />
-          </a>
-          <a href="https://www.instagram.com/mauriciolambiasi/">
-            <img src="/images/instagram.png" alt="instagram" />
-          </a>
-        </Social>
-      </Footer>
+      <Footer/>
     </div>
   )
 }
