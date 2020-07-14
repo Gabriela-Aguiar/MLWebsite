@@ -6,17 +6,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 100px;
+margin-top: 80px;
 
 h1 {
     font-size: 60px;
     font-weight: normal;
     color: #5DA6AD;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 hr {
-width: 30%;
+width: 40%;
 border: 0;
 height: 1px;
 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(93, 166, 173, 0.75), rgba(0, 0, 0, 0));
@@ -28,7 +28,7 @@ export const Navbar = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px 0;
+    margin: 120px 0;
 
     a {
     text-decoration: none;

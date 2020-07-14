@@ -34,7 +34,7 @@ export default function Home() {
       </Principal>
       <Serviços>
         <h1>Serviços</h1>
-        <hr />
+        <hr/>
         <Fileira>
           <Card>
             <img src="/images/cv.png" alt="Carreira" />

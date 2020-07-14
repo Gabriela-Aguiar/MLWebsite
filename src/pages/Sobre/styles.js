@@ -9,8 +9,7 @@ export const Missao = styled.div `
         margin: 200px 0;
         text-align: center;
         width: 60vw;
-        font-size: 26px;
+        font-size: 28px;
         line-height: 1.6;
-        font-size: 35px
     }
 `

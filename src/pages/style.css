@@ -3,3 +3,92 @@
     margin: 0;
     padding: 0;
 }
+
+.input-field {
+    margin: 10px 0;
+    position: relative;
+    height: 45px;
+    width: 80%;
+}
+
+.login-button {
+    margin: 150px 0;
+    position: relative;
+    height: 55px;
+    width: 50%;
+}
+
+.input-field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #fafafa;
+    padding-left: 15px;
+    outline: none;
+    font-size: 0.8rem;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+.input-field textarea {
+    border: 1px solid #fafafa;
+    padding-left: 15px;
+    padding-top: 15px;
+    outline: none;
+    font-size: 0.8rem;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid #5DA6AD;
+}
+
+textarea:focus {
+    border: 1px solid #5DA6AD;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-field label {
+    left: 15px;
+    pointer-events: none;
+    color: #4d4d4d;
+    font-size: 18px;
+    transition: .4s;
+}
+
+input:focus ~ label {
+    transform: translateY(-31px);
+    background: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: #000;
+}
+
+textarea:focus ~ label {
+    transform: translateY(-33px);
+    background: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    color: #000;
+}
+
+.login-button button {
+    width: 110%;
+    height: 80%;
+    border: 1px solid #5DA6AD;
+    background-color: #FFF;
+    outline: none;
+    color: #5DA6AD;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-button:hover button{
+    background-color: #5DA6AD;
+    color: #FFF;
+}
