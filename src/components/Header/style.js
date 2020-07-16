@@ -38,7 +38,6 @@ export const Navbar = styled.div `
 
     a:hover {
         transform: scale(1.1);
-        /* border-bottom: 1px solid #5DA6AD; */
         box-shadow: 0 4px 2px -2px #5DA6AD;
     }
 

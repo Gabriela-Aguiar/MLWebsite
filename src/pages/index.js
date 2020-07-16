@@ -11,6 +11,8 @@ import "./style.css"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
+import { Link } from "gatsby"
+
 
 export default function Home() {
   return (
@@ -39,14 +41,17 @@ export default function Home() {
           <Card>
             <img src="/images/cv.png" alt="Carreira" />
             <h3>Mudança de Vida e Carreira</h3>
+            <Link to="/servicos">Saiba mais</Link>
           </Card>
           <Card>
             <img src="/images/teamwork.png" alt="Organização" />
             <h3>Cultura e Clima Organizacionais</h3>
+            <Link to="/servicos">Saiba mais</Link>
           </Card>
           <Card>
             <img src="/images/humanity.png" alt="Internacionalização" />
             <h3>Internacionalização de Executivos</h3>
+            <Link to="/servicos">Saiba mais</Link>
           </Card>
         </Fileira>
         <Fileira>
@@ -56,6 +61,7 @@ export default function Home() {
               Liderança, Gestão com Equipe, Mediação de Conflitos, RH
               Estratégico, Coaching
             </h3>
+            <Link to="/servicos">Saiba mais</Link>
           </Card>
           <Card>
             <Paises>
@@ -65,6 +71,7 @@ export default function Home() {
                 Relações Comerciais, Profissionais e Culturais entre México e
                 Brasil
               </h3>
+              <Link to="/servicos">Saiba mais</Link>
             </Paises>
           </Card>
         </Fileira>

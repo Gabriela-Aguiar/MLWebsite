@@ -98,9 +98,25 @@ export const Card= styled.div `
         font-weight: normal;
     }
 
+    a {
+        margin-top: 20px;
+        color: #5DA6AD;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+        visibility: hidden;
+        text-decoration: underline;
+    }
+
     &:hover {
-        box-shadow: 0 0 1em #5DA6AD;
-        transform: scale(1.1)
+        transform: translateY(-33px);
+        transition: 0.5s;
+    }
+
+    &:hover a {
+        visibility: visible;
+        cursor: pointer;
+        transition-delay: 0.5s;
     }
 `
 
