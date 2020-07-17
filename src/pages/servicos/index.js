@@ -5,7 +5,7 @@ import Footer from "../../components/Footer"
 
 import { Titulo } from "../styles"
 
-export default function index() {
+export default function servico() {
     return (
         <div>
             <Header/>

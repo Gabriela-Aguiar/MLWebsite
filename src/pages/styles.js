@@ -39,6 +39,7 @@ export const Principal = styled.div `
         width: 40vw;
         font-size: 25px;
         line-height: 1.6;
+        text-align: justify;
     }
 `
 export const Serviços = styled.div `
