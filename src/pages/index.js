@@ -65,7 +65,7 @@ export default function Home() {
           </Card>
           <Card>
             <Paises>
-              <img src="/images/mexico.jpeg" alt="México" />
+              <img src="/images/mexico.png" alt="México" />
               <img src="/images/brazil.png" alt="Brasil" />
               <h3>
                 Relações Comerciais, Profissionais e Culturais entre México e
