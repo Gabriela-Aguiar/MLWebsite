@@ -16,6 +16,11 @@ export const List = styled.div `
         margin: 30px 0;
     }
 
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
     a:hover {
         color: #5DA6AD;
         cursor: pointer;
