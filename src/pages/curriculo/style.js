@@ -25,5 +25,6 @@ export const Fotos = styled.div `
 
     img {
         width: 400px;
+        border-radius: 5px;
     }
 `

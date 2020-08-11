@@ -14,7 +14,7 @@ export default function sobre() {
                     <hr/>
                 </Titulo>
                 <Principal style={{marginTop: 150}}>
-                    <img src="/images/mauricioSobre.jpg" alt="Mauricio" style={{width:400}}/>
+                    <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/mauricioSobre.jpg" alt="Mauricio" style={{width:400}}/>
                     <p style={{width:750, fontSize: 26}}>  A empresa Mauricio Lambiasi 
                         Desenvolvimento Humano & Negócios Educação Corporativa & Orientação para a Vida dedica-se ao aprimoramento das organizações por meio do crescimento e desenvolvimento das pessoas, acreditando que somente pelo diálogo, treinamento, desenvolvimento e auto conhecimento é possível transformar pessoas, empresas, e a sociedade. 
                         <br/>

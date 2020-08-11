@@ -22,11 +22,18 @@ export const Contato= styled.div `
 
 export const Social= styled.div `
     display: flex;
-    margin: 90px 50px 0 0;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 30vw;
+    margin-bottom: 30px;
 
-    img {
-        width: 30px;
-        height: 30px;
-        margin: 0 15px;
+    .icon {
+        font-size: 30px;
+        color: #000;
     }
+
+    .icon:hover {
+        color: #5DA6AD
+    }
+    
 `

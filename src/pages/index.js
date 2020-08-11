@@ -32,31 +32,31 @@ export default function Home() {
           <br />
           Grécia Antiga
         </p>
-        <img src="/images/mauricioPrincipal.jpeg" alt="mauricio" />
+        <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/mauricioPrincipal.jpeg" alt="mauricio" />
       </Principal>
       <Serviços>
         <h1>Serviços</h1>
         <hr/>
         <Fileira>
           <Card>
-            <img src="/images/cv.png" alt="Carreira" />
+            <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/cv.png" alt="Carreira" />
             <h3>Mudança de Vida e Carreira</h3>
             <Link to="/servicos">Saiba mais</Link>
           </Card>
           <Card>
-            <img src="/images/teamwork.png" alt="Organização" />
+            <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/teamwork.png" alt="Organização" />
             <h3>Cultura e Clima Organizacionais</h3>
             <Link to="/servicos">Saiba mais</Link>
           </Card>
           <Card>
-            <img src="/images/humanity.png" alt="Internacionalização" />
+            <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/humanity.png" alt="Internacionalização" />
             <h3>Internacionalização de Executivos</h3>
             <Link to="/servicos">Saiba mais</Link>
           </Card>
         </Fileira>
         <Fileira>
           <Card>
-            <img src="/images/strategy.png" alt="Coaching" />
+            <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/strategy.png" alt="Coaching" />
             <h3>
               Liderança, Gestão com Equipe, Mediação de Conflitos, RH
               Estratégico, Coaching
@@ -65,8 +65,8 @@ export default function Home() {
           </Card>
           <Card>
             <Paises>
-              <img src="/images/mexico.png" alt="México" />
-              <img src="/images/brazil.png" alt="Brasil" />
+              <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/mexico.png" alt="México" />
+              <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/brazil.png" alt="Brasil" />
               <h3>
                 Relações Comerciais, Profissionais e Culturais entre México e
                 Brasil

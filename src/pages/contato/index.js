@@ -14,7 +14,7 @@ export default function Contato() {
                 <hr/>
             </Titulo>
             <ContatoContainer>
-                <img src="/images/mauricioContato.jpeg" alt="mauricio" />
+                <img src="https://mauricio-lambiasi.s3-sa-east-1.amazonaws.com/mauricioContato.jpeg" alt="mauricio" />
                 <FormContainer>
                     <Form>
                         <h1>Entre em contato</h1>

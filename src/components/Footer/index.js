@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 
 import {
     FooterStyle,
@@ -16,16 +19,16 @@ export default function Footer() {
             </Contato>
             <Social>
                 <a href="https://www.linkedin.com/in/mauricio-lambiasi/"target="_blank">
-                <img src="/images/linkedin.png" alt="linkedin" />
+                <FontAwesomeIcon icon={ faLinkedin} className="icon"/>
                 </a>
                 <a href="https://www.facebook.com/mauricio.lambiasi" target="_blank">
-                <img src="/images/facebook.png" alt="facebook" />
+                <FontAwesomeIcon icon={ faFacebook } className="icon"/>
                 </a>
                 <a href="https://twitter.com/LambiasiM" target="_blank">
-                <img src="/images/twitter.png" alt="twitter" />
+                <FontAwesomeIcon icon={ faTwitter } className="icon"/>
                 </a>
                 <a href="https://www.instagram.com/mauriciolambiasi/">
-                <img src="/images/instagram.png" alt="instagram" />
+                <FontAwesomeIcon icon={ faInstagram } className="icon"/>
                 </a>
             </Social>
         </FooterStyle>
