@@ -19,11 +19,11 @@ export default function servico() {
             <ServicosContainer>
                 <List>
                     <ul>
-                        <li><Link to="/cultura_clima_organizacionais">Programa de treinamento: Cultura e Clima Organizacionais</Link></li>
-                        <li><Link>Programa de treinamento: Internacionalização de Executivos</Link></li>
-                        <li><Link>Programa de treinamento: Mudança de vida e carreira</Link></li>
-                        <li><Link>Programa de treinamento: Relações Comerciais, Profissionais e Culturais entre México e Brasil</Link></li>
-                        <li><Link>Programa de treinamento: Coaching</Link></li>
+                        <li><Link to="/servicos/cultura_clima_organizacionais">Programa de treinamento: Cultura e Clima Organizacionais</Link></li>
+                        <li><Link to="/servicos/internacionalizacao_executivos">Programa de treinamento: Internacionalização de Executivos</Link></li>
+                        <li><Link to="/servicos/mudanca_vida_carreira">Programa de treinamento: Mudança de vida e carreira</Link></li>
+                        <li><Link to="/servicos/mexico_brasil">Programa de treinamento: Relações Comerciais, Profissionais e Culturais entre México e Brasil</Link></li>
+                        <li><Link to="/servicos/coaching">Programa de treinamento: Coaching</Link></li>
                     </ul>
                 </List>
                 <List>
