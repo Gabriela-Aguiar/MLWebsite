@@ -5,7 +5,7 @@ import Footer from "../../../components/Footer"
 
 import { ServicosTitle, ServicosQuote, ServicosDescription } from '../cultura_clima_organizacionais/style'
 
-export default function internacionalizacao() {
+export default function coaching() {
     return (
         <div>
             <Header/>
