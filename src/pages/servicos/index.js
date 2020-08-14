@@ -32,7 +32,7 @@ export default function servico() {
                         <li><Link to="/servicos/gestao_equipe">Programa de treinamento: Gestão de Equipe</Link></li>
                         <li><Link to="/servicos/mediacao_conflitos">Programa de treinamento: Mediação de Conflitos</Link></li>
                         <li><Link to="/servicos/rh_estrategico">Programa de treinamento: RH Estratégico</Link></li>
-                        <li><Link>Programa de treinamento: Inteligência Emocional</Link></li>
+                        <li><Link to="/servicos/inteligencia_emocional">Programa de treinamento: Inteligência Emocional</Link></li>
                     </ul>
                 </List>
             </ServicosContainer>
