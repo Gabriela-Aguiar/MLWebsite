@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -24,6 +25,10 @@ export default function rh() {
                     <br/>
                     Este treinamento de três dias, que pode ser individual ou em grupo, busca apresentar uma visão geral da organização, bem como da necessidade de integração da área de gestão de pessoas com as demais, de forma que ela possa contribuir de maneira mais significativa e assertiva para a estratégia da empresa.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

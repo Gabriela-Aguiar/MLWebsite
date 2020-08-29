@@ -12,6 +12,7 @@ export const ServicosTitle = styled.div `
         width: 80vw;
         text-align: center;
         line-height: 1.6;
+        color: #fff;
     }
 `
 
@@ -20,6 +21,7 @@ export const ServicosQuote = styled.div `
     justify-content: flex-end;
     align-items: center;
     padding: 0 80px;
+    color: #fff;
 
     p {
         width: 30vw;
@@ -32,6 +34,11 @@ export const ServicosQuote = styled.div `
 export const ServicosDescription = styled.div `
     padding: 50px;
     margin: 50px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     p {
         font-size: 25px;
@@ -42,5 +49,32 @@ export const ServicosDescription = styled.div `
 
     span {
         line-height: 1.6;
+        width: 100%
+    }
+
+    button {
+        border: 1px solid #2B405C;
+        background-color: #FFF;
+        outline: none;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.5s;
+        padding: 7px 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2B405C;
+        font-size: 22px;
+    }
+
+    button:hover {
+        background-color: #2B405C;
+        color: #FFF;
+
+        &:hover a {
+        color: #fff;
+        }
     }
 `

@@ -4,6 +4,7 @@ export const Titulo = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
 
     h2 {
     font-size: 40px;
@@ -29,6 +30,7 @@ export const Principal = styled.div `
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
+    color: #fff;
 
     img {
         width:400px;
@@ -49,6 +51,7 @@ export const Serviços = styled.div `
     align-items: center;
     margin-top: 200px;
     margin-bottom: 60px;
+    color: #fff;
 
     h1 {
         font-size: 40px;

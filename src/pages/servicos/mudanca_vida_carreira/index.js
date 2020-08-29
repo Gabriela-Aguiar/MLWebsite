@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -21,6 +22,10 @@ export default function mudanca() {
                 <ServicosDescription>
                     <p>Este treinamento, de três dias,  busca contribuir para que o colaborador entenda o que está ocorrendo com suas eventuais insatisfações, anseios, dúvidas com relação à sua vida profissional e possa, a partir de orientações,  reflexões e autoconhecimento, elaborar um plano para  que possa trilhar sua jornada com mais confiança, determinação e assertividade.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

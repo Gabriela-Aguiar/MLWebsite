@@ -7,6 +7,7 @@ export const CurriculoContainer = styled.div `
     width: 100vw;
     justify-content: center;
     align-items: center;
+    color: #fff;
 
     p {
         text-align: center;

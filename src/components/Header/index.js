@@ -8,15 +8,14 @@ const Header = () => {
   return (
     <div>
       <HeaderStyle>
-        <h1>Mauricio Lambiasi</h1>
-        <hr />
+        <img src="/mauricio-logo.png" className='logo'/>
         <Navbar>
           <Router>
             <Link to="/">Página Inicial</Link>
             <Link to="/sobre">Sobre</Link>
             <Link to="/servicos">Serviços</Link>
             <Link to="/curriculo">Currículo</Link>
-            <Link to="/blog">Blog</Link>
+            <a href="https://mauriciolambiasi.blogspot.com/" target="_blank">Blog</a>
             <Link to="/contato">Contato</Link>
           </Router>
         </Navbar>

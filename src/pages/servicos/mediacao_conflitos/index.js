@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -27,6 +28,10 @@ export default function mediacao() {
                     <br/>
                     Obs: algumas vezes a organização necessita do trabalho de um profissional externo para realizar a mediação de um determinado conflito, o que pode ser feito com absoluta confidencialidade por esta Empresa.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

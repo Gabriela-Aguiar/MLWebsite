@@ -1,15 +1,9 @@
 import styled from 'styled-components';
 
-export const Missao = styled.div `
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    p {
-        margin: 200px 0;
-        text-align: center;
-        width: 60vw;
-        font-size: 28px;
-        line-height: 1.6;
-    }
+export const Sobre= styled.div`
+    padding: 80px 50px;
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #fff;
 `

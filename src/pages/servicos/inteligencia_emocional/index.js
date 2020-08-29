@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -21,6 +22,10 @@ export default function inteligencia() {
                     <br/>
                     Este treinamento de três dias busca explicar o que realmente vem a ser <em>inteligência emocional</em>, utilizando  também os conceitos de mindset e <em>Psicologia Positiva</em>, para que os treinandos possam conhecer melhor suas emoções e como trabalhá-las, de forma a poder se desenvolver nas diversas dimensões da vida.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

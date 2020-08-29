@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -18,6 +19,10 @@ export default function mexico() {
                     <br/>
                     Com duração de um dia, será possível conhecer a cultura, economia, particularidades, desafios e oportunidades que se apresentam tanto no México (neste caso, para profissionais e empresas brasileiros) quanto no Brasil (neste caso, para profissionais e empresas mexicanos).
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

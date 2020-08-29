@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -24,6 +25,10 @@ export default function internacionalizacao() {
                     <br/>
                     O treinamento também inclui acompanhamento no primeiro, terceiro e sexto mês da expatriação.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

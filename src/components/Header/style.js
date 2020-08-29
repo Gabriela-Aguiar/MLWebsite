@@ -6,7 +6,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 80px;
+
+.logo {
+    width: 500px;
+    top: 30px;
+    margin-top: 50px;
+}
 
 h1 {
     font-size: 60px;
@@ -25,15 +30,18 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(93, 166, 173,
 
 export const Navbar = styled.div `
     width: 100vw;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 120px 0;
+    margin: 80px 0;
+    background-color: #fff;
+    box-shadow: 0 0 1em #2B405C;
 
     a {
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 30px;
     }
 
     a:hover {

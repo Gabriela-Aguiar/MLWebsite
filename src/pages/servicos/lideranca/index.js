@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import Header from "../../../components/Header"
 import Footer from "../../../components/Footer"
@@ -31,6 +32,10 @@ export default function lideranca() {
                     <br/>
                     Em quatro dias, que poderá ser individual ou em grupo, as pessoas terão oportunidade de buscar uma trajetória de autoconhecimento que possibilite que elas elaborem ações que permitam inspirar os outros, as equipes e que, como disse Confúcio, que viveu há mais de 2.500 anos, envolva as pessoas em direção ao aprimoramento e ao atingimento dos objetivos de vida e das organizações.
                     </p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <button><Link to="/contato"> Entre em contato</Link></button>
                 </ServicosDescription>
             <Footer/>
         </div>

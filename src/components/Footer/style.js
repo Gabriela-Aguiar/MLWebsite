@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const FooterStyle= styled.div `
-    background-color:#CAE0DA;
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    border-top: 2px solid #8DA3C2;
+    color: #fff;
 `
 export const Contato= styled.div `
     display: flex;
@@ -30,6 +31,7 @@ export const Social= styled.div `
     .icon {
         font-size: 30px;
         color: #000;
+        color: #fff;
     }
 
     .icon:hover {
